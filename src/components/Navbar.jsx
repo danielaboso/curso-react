@@ -21,11 +21,11 @@ const Navbar = () => {
       <Form contBuscar="Productos"/>
     </div>
   </div>
+  
 </nav>
 
-
     </>
-  );
+ );
 }
 
 export default Navbar;
