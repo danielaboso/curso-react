@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar';
-import ItemListContainer from './ItemListContainer';
+import Navbar from './Navbar.jsx';
+import ItemListContainer from './ItemListContainer.jsx';
 import { BiShoppingBag } from 'react-icons/bi';
 
 
 function App() {
     return (
         <div className="App">
-            <h1>React</h1>
+        <ItemListContainer/>
         <Navbar />
-        <ItemListContainer saludo='Hola, Bienvenidos'/> 
         <BiShoppingBag />
         </div>
     );
