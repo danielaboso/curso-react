@@ -1,10 +1,13 @@
 import React from 'react'
 import { BiShoppingBag } from 'react-icons/bi';
 
-export default function CartWidget() {
+const CartWidget = () => {
 return (
-    <div>CartWidget</div>
+    <div>
+        <BiShoppingBag />
+        </div>
     
-)
+);
 }
 
+export default CartWidget;

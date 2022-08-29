@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar.jsx';
+import Navbar from './NavBar.jsx';
 import ItemListContainer from './ItemListContainer.jsx';
-import { BiShoppingBag } from 'react-icons/bi';
-
 
 
 function App() {
@@ -11,7 +9,6 @@ function App() {
         <div className="App">
         <ItemListContainer/>
         <Navbar />
-        <BiShoppingBag />
         </div>
     );
 }
