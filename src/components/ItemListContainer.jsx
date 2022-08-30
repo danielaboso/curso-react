@@ -1,6 +1,16 @@
 import React from 'react';
 import Counter from './Counter';
-const ItemListContainer = () => {
+
+const ItemListContainer = (props) => {
+
+    console.log(props)
+    return (
+        <>{props.greeting}</>    
+
+    )
+}
+/*
+    const ItemListContainer = () => {
     function onAdd(count){
         console.log(`Se han seleccionado ${count} productos`)
     }
@@ -12,4 +22,6 @@ const ItemListContainer = () => {
     </div>
     )
 }
+*/
+
 export default ItemListContainer;

@@ -7,7 +7,7 @@ import ItemListContainer from './ItemListContainer.jsx';
 function App() {
     return (
         <div className="App">
-        <ItemListContainer/>
+            <ItemListContainer greeting="Hola, Bievenido"/>  
         <Navbar />
         </div>
     );
