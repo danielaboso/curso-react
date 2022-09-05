@@ -1,0 +1,15 @@
+
+section.class-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+article.card{
+    margin: 10px;
+    padding: 20px;
+    color: #da2cc3;
+    text-align: center;
+    border: solid 3px #96d630;
+}
+

@@ -8,9 +8,9 @@ import Item from '../components/Item';
 function App() {
     return (
         <div className="App">
-            <Item />
-            <ItemListContainer greeting="Hola, Bievenido"/>       
         <Navbar />
+        <main/>
+        <ItemListContainer/>
         </div>
     );
 }

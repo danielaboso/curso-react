@@ -1,11 +1,20 @@
 import React from 'react';
+import Item from './Item';
 
-const ItemList = () => {
+const ItemList =({productos})=>{
+
+
     return (
-        <div>
-            
-        </div>
-    );
+        <section className="class-container">
+            {productos.map(producto=>{
+                return(
+                    <Item key={producto.id} producto={producto}/>
+                )
+            })}
+        </section>
+    )
 }
+
+
 
 export default ItemList;
