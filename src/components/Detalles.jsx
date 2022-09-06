@@ -1,7 +1,6 @@
 import React from 'react';
-import Detalles from './detalles';
 
-const ItemDetail = () => {
+const Detalles = () => {
     return (
         <div>
             
@@ -9,4 +8,4 @@ const ItemDetail = () => {
     );
 }
 
-export default ItemDetail;
+export default Detalles;
